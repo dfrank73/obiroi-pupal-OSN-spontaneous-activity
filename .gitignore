@@ -1,0 +1,10 @@
+# data: provided separately (see README "Data availability")
+data/
+# panel files written by the notebooks
+figures/
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# os
+.DS_Store

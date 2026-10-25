@@ -1,0 +1,13 @@
+# conda env create -f environment.yml && conda activate obiroi-osn-activity
+name: obiroi-osn-activity
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy=2.0
+  - pandas=2.2
+  - scipy=1.13
+  - matplotlib=3.9
+  - pyarrow
+  - jupyter
+  - nbconvert
